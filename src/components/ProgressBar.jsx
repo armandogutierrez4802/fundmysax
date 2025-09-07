@@ -3,12 +3,12 @@ export default function ProgressBar() {
     <div className="mb-6 x-auto max-w-7xl p-6 lg:px-8">
       <h4 className="sr-only">Status</h4>
       <p className="text-sm font-medium text-gray-900">
-        $0 raised of $1,000 goal
+        $100 raised of $1,000 goal
       </p>
       <div aria-hidden="true" className="mt-6">
         <div className="overflow-hidden rounded-full bg-gray-200">
           <div
-            style={{ width: '1%' }}
+            style={{ width: '10%' }}
             className="h-2 rounded-full bg-blue-600"
           />
         </div>

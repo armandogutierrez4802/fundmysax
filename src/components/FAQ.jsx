@@ -39,12 +39,12 @@ const faqs = [
 export default function FAQ() {
   return (
     <div className="bg-white">
-      <div className="mx-auto max-w-7xl p-6 lg:px-8 lg:py-8 mb-8">
+      <div className="mx-auto max-w-7xl p-6 lg:px-8 lg:py-8 mb-6">
         <div className="mx-auto max-w-4xl">
           <h2 className="text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
             Frequently asked questions
           </h2>
-          <dl className="mt-16 divide-y divide-gray-900/10">
+          <dl className="mt-10 divide-y divide-gray-900/10">
             {faqs.map((faq) => (
               <Disclosure
                 key={faq.question}
