@@ -8,7 +8,7 @@ import { MinusSmallIcon, PlusSmallIcon } from '@heroicons/react/24/outline';
 const faqs = [
   {
     question: 'Why did my contribution not move the progress bar?',
-    answer: 'I have to update that manually. Check back in a day or two.',
+    answer: 'I have to update that manually! Please check back in a day or two.',
   },
   {
     question: 'Why a new saxophone?',
